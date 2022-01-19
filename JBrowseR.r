@@ -1,7 +1,7 @@
 library(shiny)
 library(JBrowseR)
 
-data_server <- serve_data("~/pathway")
+data_server <- serve_data("~/pathway")     ##可将基因参考文件和注释文件，以及所有的bw文件放置该位置
 
 ui <- fluidPage(
   titlePanel("SL JBrowseR Example"),
