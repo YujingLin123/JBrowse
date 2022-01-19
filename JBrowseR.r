@@ -1,7 +1,7 @@
 library(shiny)
 library(JBrowseR)
 
-data_server <- serve_data("J:/C盘/Project/psc-langlab/task/huanghuan/NOR/bw/42D")
+data_server <- serve_data("~/pathway")
 
 ui <- fluidPage(
   titlePanel("SL JBrowseR Example"),
